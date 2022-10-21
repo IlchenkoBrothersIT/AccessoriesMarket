@@ -1,0 +1,111 @@
+body {
+    margin: 0px;
+}
+
+
+.card-link {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.result-of-query {
+    text-align: center;
+}
+
+.nav-bar {
+    background-color: black;
+}
+
+.text {
+    background-color: black;
+    text-align: center;
+}
+
+.nav-bar-logo {
+    text-align: center;
+    background-color: black;
+}
+
+.image {
+    box-shadow: 20px;
+    border-radius: 40px;
+}
+
+.products-header {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.product-list {
+    background-color: darkBlue;
+    text-align: center;
+    border-radius: 40px;
+    margin-top: 70px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.product {
+    display: inline-block;
+    background-color: #301535;
+    opacity: 80%;
+    border-radius: 40px;
+    margin-top: 30px;
+    height: 550px;
+    width: 450px
+}
+
+.margin {
+    display: inline-block;
+    width: 100px;
+}
+
+
+
+/* медиа запросы конкретно для настройки контейноров с описанием и ценами на товар */
+
+@media (max-width: 1300px) and (min-width: 1200px) {
+    .margin {
+        width: 50px;
+    }
+}
+
+@media (max-width: 1250px) and (min-width: 1190px) {
+    .margin {
+        width: 20px;
+    }
+}
+
+@media (max-width: 1190px) and (min-width: 100px) {
+    .margin {
+        display: none;
+    }
+}
+
+/* медиа запросы для контейнеров с описанием товаров закончены */
+
+
+
+
+/* медиа запросы для всех типов ширины экрана */
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .nav-bar-id-image {
+        margin-left: 30%; 
+     }
+}
+
+@media (max-width: 768px) and (min-width: 576px) {
+   
+}
+
+@media (max-width: 576px) and (min-width: 0px) {
+   
+}
+
+
+
